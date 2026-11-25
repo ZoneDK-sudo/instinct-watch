@@ -1,0 +1,17 @@
+<settings>
+    <setting propertyKey="@Properties.StartHour" title="@Strings.StartHourTitle" prompt="@Strings.HourPrompt">
+        <settingConfig type="numeric" min="0" max="23"/>
+    </setting>
+    <setting propertyKey="@Properties.EndHour" title="@Strings.EndHourTitle" prompt="@Strings.HourPrompt">
+        <settingConfig type="numeric" min="1" max="24"/>
+    </setting>
+    <setting propertyKey="@Properties.HourGoal" title="@Strings.HourGoalTitle">
+        <settingConfig type="numeric" min="50" max="2000"/>
+    </setting>
+    <setting propertyKey="@Properties.SitWarnMinutes" title="@Strings.SitWarnTitle">
+        <settingConfig type="numeric" min="15" max="180"/>
+    </setting>
+    <setting propertyKey="@Properties.WorkWeekends" title="@Strings.WorkWeekendsTitle">
+        <settingConfig type="boolean"/>
+    </setting>
+</settings>

@@ -1,0 +1,17 @@
+<resources>
+    <strings>
+        <string id="AppName">Workday</string>
+        <string id="StartHourTitle">Workday starts (hour, 0-23)</string>
+        <string id="EndHourTitle">Workday ends (hour, 1-24)</string>
+        <string id="HourPrompt">24-hour clock, e.g. 9 or 17. Up to 12 hours.</string>
+        <string id="HourGoalTitle">Steps that count an hour as moved</string>
+        <string id="SitWarnTitle">Show MOVE after sitting (minutes)</string>
+        <string id="WorkWeekendsTitle">Track Saturday and Sunday too</string>
+    </strings>
+    <fonts>
+        <font id="TimeFont" filename="fonts/timefont.fnt" antialias="false"/>
+    </fonts>
+    <drawables>
+        <bitmap id="LauncherIcon" filename="launcher_icon.png"/>
+    </drawables>
+</resources>

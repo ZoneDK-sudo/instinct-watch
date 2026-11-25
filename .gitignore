@@ -1,0 +1,19 @@
+# Personal data copied off the watch: GPS tracks, heart rate, health metrics
+garmin-data/
+dashboard/data.json
+
+# Build output
+**/bin/
+**/gen/
+*.prg
+*.prg.debug.xml
+
+# Signing keys (keep these in ~/.garmin, never in the repo)
+*.pem
+*.der
+
+# Node
+node_modules/
+
+# Local editor and agent settings
+.claude/settings.local.json
