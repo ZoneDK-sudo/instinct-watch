@@ -29,9 +29,9 @@ class WorkdayView extends WatchUi.WatchFace {
     // Layout (pixels on the 176 x 176 screen)
     private const INFO_RIGHT = 97;   // right edge of the top-left block
     private const INFO_ROWS = [13, 27, 41, 55];
-    private const TIME_Y = 101;
-    private const HOURS_Y = 139;
-    private const BOTTOM_Y = 161;
+    private const TIME_Y = 98;
+    private const HOURS_Y = 134;
+    private const BOTTOM_Y = 153;
 
     // Settings
     private var _start as Number = 9;
@@ -319,7 +319,7 @@ class WorkdayView extends WatchUi.WatchFace {
         var text = "SITTING " + sit;
         if (inDay) {
             var f = forecast(minsNow);
-            if (f != null) { text = "SIT " + sit + "   " + endLabel() + " ~" + f.format("%d"); }
+            if (f != null) { text = "SIT " + sit + "  " + endLabel() + " ~" + f.format("%d"); }
         }
         dc.drawText(w / 2, BOTTOM_Y, font, text, center);
     }
